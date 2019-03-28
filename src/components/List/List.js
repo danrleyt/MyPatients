@@ -10,12 +10,14 @@ class List extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      filter: 1
+      filter: 1 // filter starts with neutral element
     };
     this.handleFilter = this.handleFilter.bind(this);
   }
 
   handleFilter(event) {
+    /* function to check if it was an option to activate or deactivate a filter, 
+    right after, the filter is calculated and the state is updated */
     let { filter } = this.state;
 
     if (event.target.checked) {
@@ -62,6 +64,7 @@ class List extends React.Component {
         <div className="row">
           {objects.map(value => {
             if (filter === 1)
+              // If filter is 1 that means no filter was selected, therefore show all the list
               return (
                 <Patient
                   key={value.phoneNumber}
@@ -70,6 +73,7 @@ class List extends React.Component {
                 />
               );
             if (value.filter % filter === 0)
+              // checks if the patient has a filter attr that applies to the filter that is selected, see documentation for more details
               return (
                 <Patient
                   key={value.phoneNumber}

@@ -42,7 +42,7 @@ class App extends Component {
         {Object.keys(selected).length ? (
           <Container selected={selected} />
         ) : (
-          <Presentation />
+          <Presentation /> // if there is no patient selected shows the presentation component
         )}
       </div>
     );

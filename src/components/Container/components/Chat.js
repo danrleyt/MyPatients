@@ -11,7 +11,8 @@ const Chat = props => {
           : null}
       </div>
       <div className="input">
-        <textarea id="textarea1" className="materialize-textarea" />
+        <textarea id="textarea1" className="materialize-textarea" />{' '}
+        {/* to be implemented */}
       </div>
     </div>
   );

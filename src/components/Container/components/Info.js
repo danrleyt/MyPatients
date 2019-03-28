@@ -11,13 +11,16 @@ const Info = props => {
   const address = `${patient.address.street}, ${patient.address.city}, ${
     patient.address.zip
   }`;
-  const today = new Date();
+  const today = new Date(); // auxiliar date to calculate age
+
   const diagnosisMap = {
+    // map to show the attribute captalize
     depression: 'Depression',
     eatingDisorder: 'Eating Disorder',
-    burnout: 'burnout'
+    burnout: 'Burnout'
   };
   const treatmentMap = {
+    // map to show the attribute captalize
     outpatient: 'Outpatient',
     aftercare: 'Aftercare'
   };

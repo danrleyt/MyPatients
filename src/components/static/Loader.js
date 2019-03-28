@@ -3,6 +3,7 @@ import '../../styles/spinner.css';
 
 const Loader = () => {
   return (
+    // I got this on http://tobiasahlin.com/spinkit/
     <div className="spinner valign-wrapper">
       <div className="rect1" />
       <div className="rect2" />

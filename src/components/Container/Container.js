@@ -19,7 +19,7 @@ class Container extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showInfo: false
+      showInfo: false // control to check if it should show the info of the patient or the messages
     };
     this.toggleInfo = this.toggleInfo.bind(this);
   }
