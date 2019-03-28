@@ -14,15 +14,15 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      patients: [],
-      selected: {},
-      isLoading: true
+      patients: [], // List of patients
+      selected: {}, // control which patient was selected
+      isLoading: true // control when to show the loader
     };
     this.handleSelectPatient = this.handleSelectPatient.bind(this);
   }
 
   async componentDidMount() {
-    const patientsList = await PatientService.fetchPatients();
+    const patientsList = await PatientService.fetchPatients(); // fetch the list of patients
     this.setState({ patients: patientsList, isLoading: false });
   }
 
