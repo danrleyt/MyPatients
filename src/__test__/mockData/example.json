@@ -1,0 +1,121 @@
+[
+  {
+    "firstName": "Amelie",
+    "lastName": "Vogt",
+    "profilePicture": "https://res.cloudinary.com/minddoc/image/upload/c_thumb,g_face,h_110,w_110/v1/mitsu/staging/avatars/632a9096-6394-4e06-b488-aa823c3d3d0e.jpg",
+    "gender": "female",
+    "phoneNumber": "004900612345678",
+    "dateOfBirth": "1999-05-24T00:00:00.000Z",
+    "insuranceNumber": "F4K3-1D-98765-1",
+    "diagnosis": "eatingDisorder",
+    "treatmentType": "outpatient",
+    "address": {
+      "city": "München",
+      "street": "Beispielstraße",
+      "zip": "80804"
+    },
+    "emergencyContact": null,
+    "online": true,
+    "linked": true,
+    "messages": [
+      "{\"text\":\"Hi\",\"read\":true,\"date\":\"2019-03-25T10:30:00.000Z\"}",
+      "{\"text\":\"When do we begin?\",\"read\":true,\"date\":\"2019-03-25T11:30:00.000Z\"}",
+      "{\"text\":\"Looking forward!\",\"read\":false,\"date\":\"2019-03-25T12:30:00.000Z\"}"
+    ]
+  },
+  {
+    "firstName": "Nicole",
+    "lastName": "Brandt",
+    "profilePicture": "https://res.cloudinary.com/minddoc/image/upload/c_thumb,g_face,h_110,w_110/v1/mitsu/staging/avatars/4551154b-5815-4a3d-8a2a-13c0adf3a5d7.jpg",
+    "gender": "female",
+    "phoneNumber": "004900712345678",
+    "dateOfBirth": "1995-03-08T00:00:00.000Z",
+    "insuranceNumber": "F4K3-1D-98765-2",
+    "diagnosis": "eatingDisorder",
+    "treatmentType": "aftercare",
+    "address": {
+      "city": "Berlin",
+      "zip": "98761",
+      "street": "Beispielplatz",
+      "number": "55"
+    },
+    "emergencyContact": {
+      "firstName": "Mario",
+      "lastName": "Bayer",
+      "phoneNumber": "00495522136309"
+    },
+    "online": true,
+    "linked": true,
+    "messages": [
+      "{\"text\":\":)\",\"read\":true,\"date\":\"2019-03-23T10:30:00.000Z\"}",
+      "{\"text\":\"I am ready\",\"read\":false,\"date\":\"2019-03-24T15:00:00.000Z\"}",
+      "{\"text\":\"Just let me know\",\"read\":false,\"date\":\"2019-03-24T15:01:00.000Z\"}"
+    ]
+  },
+  {
+    "firstName": "Ruth",
+    "lastName": "Beck",
+    "profilePicture": "https://res.cloudinary.com/minddoc/image/upload/c_thumb,g_face,h_110,w_110/v1/mitsu/staging/avatars/3ad137ae-9a25-4756-b813-df5d5258c235.jpg",
+    "gender": "female",
+    "phoneNumber": "004900812345678",
+    "dateOfBirth": "1979-11-24T00:00:00.000Z",
+    "insuranceNumber": "F4K3-1D-98765-3",
+    "diagnosis": "eatingDisorder",
+    "treatmentType": "outpatient",
+    "address": {
+      "city": "Ammerndorf bei Nürnberg",
+      "zip": "77777",
+      "street": "Street",
+      "number": "88"
+    },
+    "emergencyContact": null,
+    "online": false,
+    "linked": true,
+    "messages": [
+      "{\"text\":\"I feel great today\",\"read\":true,\"date\":\"2019-03-21T09:00:00.000Z\"}",
+      "{\"text\":\"Thank you!\",\"read\":true,\"date\":\"2019-03-21T09:05:00.000Z\"}"
+    ]
+  },
+  {
+    "firstName": "Kathrin",
+    "lastName": "Stein",
+    "profilePicture": "https://res.cloudinary.com/minddoc/image/upload/c_thumb,g_face,h_110,w_110/v1/mitsu/staging/avatars/6d2d00aa-393d-41ed-916e-21c5d29351b5.jpg",
+    "gender": "female",
+    "phoneNumber": "004900912345678",
+    "dateOfBirth": "1975-08-14T00:00:00.000Z",
+    "insuranceNumber": "F4K3-1D-98765-4",
+    "diagnosis": "depression",
+    "treatmentType": "outpatient",
+    "address": {
+      "city": "Friedberg bei Augsburg",
+      "zip": "66666",
+      "street": "Hauptstrasse",
+      "number": "1"
+    },
+    "emergencyContact": null,
+    "online": false,
+    "linked": false,
+    "messages": []
+  },
+  {
+    "firstName": "Andreas",
+    "lastName": "Kuhn",
+    "profilePicture": "https://res.cloudinary.com/minddoc/image/upload/c_thumb,g_face,h_110,w_110/v1/mitsu/staging/avatars/2cafa036-fd82-4ce2-bffc-f603a558fc0a.jpg",
+    "gender": "male",
+    "phoneNumber": "004901012345678",
+    "dateOfBirth": "1982-04-12T00:00:00.000Z",
+    "insuranceNumber": "F4K3-1D-98765-5",
+    "diagnosis": "burnout",
+    "treatmentType": "outpatient",
+    "address": {
+      "city": "Berlin",
+      "zip": "56565",
+      "street": "Gedankenplatz",
+      "number": "9 (EG links)"
+    },
+    "emergencyContact": null,
+    "online": true,
+    "linked": false,
+    "messages": []
+  }
+]
