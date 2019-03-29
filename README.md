@@ -1,6 +1,6 @@
 ## Documentation
 
-Before you go directly to the instructions on how to run the projects, I encourage you to read the documentation first, the documentation can be found [HERE](https://github.com/danrleyt/MyPatients/blob/master/DOCUMENTATION.md).
+Before you go directly to the instructions on how to run the project, I encourage you to read the documentation first, the documentation can be found [HERE](https://github.com/danrleyt/MyPatients/blob/master/DOCUMENTATION.md).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
